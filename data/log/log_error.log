@@ -1,0 +1,1 @@
+24-07-24.15:12:16.317 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[org.bugstack]' package. Please check your configuration.
