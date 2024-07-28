@@ -88,6 +88,12 @@
             <groupId>org.bugstack</groupId>
             <artifactId>big-market-infrastructure</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.bugstack</groupId>
+            <artifactId>big-market-infrastructure</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -127,7 +133,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>org.bugstack.Application</mainClass>
+                    <mainClass>cn.bugstack.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
